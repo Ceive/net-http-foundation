@@ -1,0 +1,17 @@
+{
+    "name": "ceive/net-http-foundation",
+    "description": "...",
+    "type": "library",
+    "license": "Apache 2.0",
+    "minimum-stability": "dev",
+    "require": {
+	  "ceive/value": "dev-master",
+	  "ceive/user-access-auth": "dev-master",
+	  "ceive/net-hypertext": "dev-master"
+	},
+    "autoload" : {
+	  "psr-4": {
+		"Ceive\\Net\\HttpFoundation\\": "src/"
+	  }
+	}
+}
